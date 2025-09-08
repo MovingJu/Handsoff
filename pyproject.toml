@@ -1,6 +1,6 @@
 [project]
 name = "handsoff"
-version = "1.1.1"
+version = "1.1.2"
 description = "Auto file tranfer with scp command."
 readme = "README.md"
 classifiers=[
