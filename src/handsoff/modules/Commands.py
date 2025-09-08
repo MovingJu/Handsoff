@@ -26,7 +26,7 @@ class Commands:
         return self.params
 
     def command_not_valid(self) -> bool:
-        required = ["host", "user", "server", "client"]
+        required = ["host", "user"]
         return not all(self.params.get(k) for k in required)
 
     def pull(self, client: str = "", server: str = "") -> None:
