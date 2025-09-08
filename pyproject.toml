@@ -1,11 +1,10 @@
 [project]
 name = "handsoff"
-version = "1.1.0"
+version = "1.1.1"
 description = "Auto file tranfer with scp command."
 readme = "README.md"
 classifiers=[
     'Programming Language :: Python :: 3',
-    'Operating System :: OS Independent',
 ]
 requires-python = ">=3.13"
 authors = [{name = "MovingJu", email = "movingju06@gmail.com"}]
